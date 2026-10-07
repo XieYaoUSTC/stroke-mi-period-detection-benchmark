@@ -63,7 +63,7 @@ def cv_csp_auc_both(X, y, grp):
     return float(roc_auc_score(y, pred)), _foldmean(per)
 
 def cv_riem_auc(X, y, grp, kind='ts_lr', both=False):
-    """黎曼几何基线(2026-10-06 加,审稿预防「基线太弱」):OAS 协方差 → 切空间+逻辑回归(ts_lr)或最小距离到均值(mdm);同一试次分折。"""
+    """黎曼几何基线(2026-10-06 加,强基线):OAS 协方差 → 切空间+逻辑回归(ts_lr)或最小距离到均值(mdm);同一试次分折。"""
     from pyriemann.estimation import Covariances
     from pyriemann.tangentspace import TangentSpace
     from pyriemann.classification import MDM
@@ -141,10 +141,10 @@ def within_block(X, y, grp, idx, eog=None, side_contra=None, side_ipsi=None, ban
             fe = np.stack([logp(E[:, c]) for c in range(E.shape[1])], 1); r[f'eog_rule_{band}'] = oos_rule_auc(fe, y, grp)
     if riem:                                                                      # 黎曼基线(全导 8–30 Hz)
         r['riem_ts_lr'], r['riem_ts_lr_foldmean'] = cv_riem_auc(X, y, grp, 'ts_lr', both=True); r['riem_mdm'] = cv_riem_auc(X, y, grp, 'mdm')
-        cen = [idx[n] for n in CENTRAL9 if n in idx]; far9 = [idx[n] for n in far_names]                     # 同一黎曼管线、等通道数:中央 9 vs 远端 9(审稿意见 5)
+        cen = [idx[n] for n in CENTRAL9 if n in idx]; far9 = [idx[n] for n in far_names]                     # 同一黎曼管线、等通道数:中央 9 vs 远端 9
         if len(cen) >= 6 and len(far9) >= 6:
             k = min(len(cen), len(far9)); r['riem_central'] = cv_riem_auc(X[:, cen[:k]], y, grp, 'ts_lr'); r['riem_distal'] = cv_riem_auc(X[:, far9[:k]], y, grp, 'ts_lr'); r['riem_subset_nch'] = int(k)
-    if bands is not None:                                                         # 频带拆分 + 枕区 alpha 对照(审稿预防「视觉 alpha」)
+    if bands is not None:                                                         # 频带拆分 + 枕区 alpha 对照(对照「视觉 alpha」)
         occ = [idx[n] for n in ['O1', 'O2', 'Oz'] if n in idx]
         lpb = {b: np.stack([logp(Xb[:, keep][:, c]) for c in range(len(keep))], 1) for b, Xb in bands.items()}
         for b in lpb:
@@ -170,7 +170,7 @@ def deploy(pre, later):
         pfull = (rule(f, ref0) >= th).astype(int); out[f'fixed_{tn}_bacc'] = bacc(y, pfull); out[f'fixed_{tn}_sens'], out[f'fixed_{tn}_spec'] = sens_spec(y, pfull)                        # 全场(全部窗)
         out[f'offline_{tn}_bacc'] = bacc(y, (rule(f, np.median(f[y == 0], 0)) >= th).astype(int))
     ref_sorted = sorted(set(grp[y == 0]), key=lambda g: t[(grp == g) & (y == 0)].min())
-    # 公共后缀评价集:以最大 k 的校准结束时刻为界(审稿意见 6),各 k 与固定/离线都在其上评价
+    # 公共后缀评价集:以最大 k 的校准结束时刻为界,各 k 与固定/离线都在其上评价
     Kmax = max(KS); cal_max = np.isin(grp, ref_sorted[:Kmax]) & (y == 0); t_common = float(t[cal_max].max() + WIN / FS) if cal_max.any() and len(ref_sorted) >= Kmax else np.inf
     common = t >= t_common; out['common_suffix_start_s'] = t_common; out['n_common_mi'] = int((y[common] == 1).sum()); out['n_common_ref'] = int((y[common] == 0).sum())
     for Kk in KS:                                                                 # 2026-10-06:k=5/10/20 与慢性口径一致;k=10 为主

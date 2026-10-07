@@ -104,7 +104,7 @@ def csp_feat(e, w):
 
 def trial_folds(grp, n_splits=5, seed=0):
     """按试次分折:同一试次的全部窗(两个想象窗+一个静息窗)放同一折。
-    修正 2026-10-04:此前用 StratifiedKFold(...).split(f, grp % 5) 只是按 grp%5 分层,同一试次的窗会跨折(审读核出 98/120 测试窗泄漏)。"""
+    修正 2026-10-04:此前用 StratifiedKFold(...).split(f, grp % 5) 只是按 grp%5 分层,同一试次的窗会跨折(98/120 测试窗泄漏)。"""
     trials = np.unique(grp)
     perm = np.random.default_rng(seed).permutation(trials)
     fold_of = {t: i % n_splits for i, t in enumerate(perm)}
@@ -145,7 +145,7 @@ def run_subject(sub):
         r = {'ses': s['ses'], 'n_trials': s['n_trials']}
         ref = np.median(f[y == 0], 0)
         r['rule_auc'] = float(roc_auc_score(y, rule_score(f, ref)))
-        pred_r = np.zeros(len(y))                                             # 样本外参考:只用训练折参考窗算中位数(2026-10-05 二审后加)
+        pred_r = np.zeros(len(y))                                             # 样本外参考:只用训练折参考窗算中位数(2026-10-05 加)
         for tr, te in trial_folds(grp):
             pred_r[te] = rule_score(f[te], np.median(f[tr][y[tr] == 0], 0))
         r['rule_oos_auc'] = float(roc_auc_score(y, pred_r))

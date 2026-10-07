@@ -98,7 +98,7 @@ if LL_FILE.exists():
             table(f"下肢·设计对照·强化(黎曼/其他 LDA)·{tp} (n={len(subs)})", rows)
     for tp in ["post", "follow"]:
         block_rows(LL, lambda s, tp=tp: LL[s].get(f"deploy_cz_pre_to_{tp}"), PAIRS_DEPLOY_STRONG, f"下肢·Cz/FCz·pre→{tp} 部署·强化")
-# ---------------- 审稿意见 3/5/6 家族(2026-10-07):折内 vs 拼接 AUC;同管线黎曼中央 vs 远端;公共后缀评价集上的 k 比较
+# ---------------- 补充家族(2026-10-07):折内 vs 拼接 AUC;同管线黎曼中央 vs 远端;公共后缀评价集上的 k 比较
 PAIRS_FOLD = [("rule_c34_foldmean", "rule_c34", "规则 C3/C4:折内均值 − 拼接"), ("lda_c34_foldmean", "lda_c34", "LDA 2特征:折内均值 − 拼接"), ("csp_all_foldmean", "csp_all", "全导 CSP:折内均值 − 拼接"), ("riem_ts_lr_foldmean", "riem_ts_lr", "黎曼 TS+LR:折内均值 − 拼接"),
               ("riem_ts_lr_foldmean", "rule_c34_foldmean", "折内均值:黎曼 − 规则"), ("riem_central", "riem_distal", "同管线黎曼:中央 9 导 − 远端 9 导"), ("riem_ts_lr", "riem_central", "黎曼:全导 − 中央 9 导")]
 PAIRS_COMMON = [("pro5_youden_bacc_common", "fixed_youden_bacc_common", "公共后缀:前缀5 − 固定(Youden)"), ("pro10_youden_bacc_common", "fixed_youden_bacc_common", "公共后缀:前缀10 − 固定(Youden)"), ("pro20_youden_bacc_common", "fixed_youden_bacc_common", "公共后缀:前缀20 − 固定(Youden)"),

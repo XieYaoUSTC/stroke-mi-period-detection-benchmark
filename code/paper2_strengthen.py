@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""论文二 · 投稿前强化分析(2026-10-06,用户批准项 1–5):
+"""论文二 · 投稿前强化分析(2026-10-06):
   acute      急性 50 人(主口径=提示期参考 REST_MODE=cue):黎曼基线(切空间+LR / MDM)、频带拆分(C3/C4 mu / beta)、枕区 alpha 对照、
              按想象手的偏侧化(对侧单导 vs 同侧单导的阶段检测;左右手判别 AUC)
   chronic    慢性 14 人(CAR,逐会话均值):黎曼基线、频带拆分(11 导无枕区)、按想象腕的偏侧化
@@ -136,7 +136,7 @@ def acute_eogreg():
     json.dump({'rest_mode': os.environ['REST_MODE'], 'rows': rows, 'summary': summarize(rows)}, open(os.path.join(OUT, f"acute_eogreg_{os.environ['REST_MODE']}" + ('' if PAD == 1.0 else f'_pad{PAD:g}') + '.json'), 'w'), indent=1, ensure_ascii=False)
 
 
-# ------------------------------------------------------------------ 急性:滤波瞬态假说的针对性检验(六审第 80 条)
+# ------------------------------------------------------------------ 急性:滤波瞬态假说的针对性检验
 def filt_pad(x, lo, hi, pad_s, zero_phase=False):
     """与 A.filt 相同的陷波+带通,但镜像补段长度可调;zero_phase=True 用 filtfilt(无因果瞬态)。"""
     from scipy.signal import butter, iirnotch, lfilter, filtfilt

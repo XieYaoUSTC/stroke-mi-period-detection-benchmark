@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""按 results/exclusions.json 从天津结果 JSON 中剔除不确定记录(审稿意见 1:信号级重复),写回主文件,完整版另存 *_full.json。
+"""按 results/exclusions.json 从天津结果 JSON 中剔除不确定记录(信号级重复),写回主文件,完整版另存 *_full.json。
 exclusions.json 格式:{"ll_raw.json": [["sub-24","pre"], ...], "sf_restlate.json": [["sub-22","pre"], ["sub-02","follow"]], "note": "..."}
 规则:剔除 (sub, tp) 块;若 tp == 'pre',同时剔除该患者全部 deploy_* 条目(以 pre 为校准);若 tp 为 post/follow,剔除对应 deploy_*_pre_to_{tp}。
 所有分析均逐患者独立,剔除患者块不影响其他患者的结果,故无需重跑。"""

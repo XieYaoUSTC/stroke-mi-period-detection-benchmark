@@ -65,7 +65,7 @@ def windows(xf):
 
 def trial_folds(grp, n_splits=5, seed=0):
     """按试次分折:同一试次的全部窗(两个想象窗+一个静息窗)放同一折。
-    修正 2026-10-04:此前用 StratifiedKFold(...).split(f, grp % 5) 只是按 grp%5 分层,同一试次的窗会跨折(审读核出 98/120 测试窗泄漏)。"""
+    修正 2026-10-04:此前用 StratifiedKFold(...).split(f, grp % 5) 只是按 grp%5 分层,同一试次的窗会跨折(98/120 测试窗泄漏)。"""
     trials = np.unique(grp)
     perm = np.random.default_rng(seed).permutation(trials)
     fold_of = {t: i % n_splits for i, t in enumerate(perm)}
