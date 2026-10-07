@@ -1,0 +1,57 @@
+{
+ "acute": {
+  "n": 50,
+  "candidates": {
+   "break": 0.6232625,
+   "cue": 0.649375,
+   "late": 0.62985
+  },
+  "main": "cue",
+  "pick_rate": {
+   "break": 0.005,
+   "cue": 0.795,
+   "late": 0.2
+  },
+  "selected_on_A_eval_on_B_mean": 0.6408783750000001,
+  "main_eval_on_B_mean": 0.650926875,
+  "optimism_mean": -0.010048499999999998,
+  "all_patients_main": 0.649375,
+  "all_patients_best_in_sample": 0.649375
+ },
+ "paretic_hand": {
+  "n": 24,
+  "candidates": {
+   "early+late": 0.7975602678071665,
+   "late": 0.7713832824617973
+  },
+  "main": "late",
+  "pick_rate": {
+   "early+late": 1.0,
+   "late": 0.0
+  },
+  "selected_on_A_eval_on_B_mean": 0.7988003005085812,
+  "main_eval_on_B_mean": 0.7723372881982108,
+  "optimism_mean": 0.02646301231037051,
+  "all_patients_main": 0.7713832824617973,
+  "all_patients_best_in_sample": 0.7975602678071665
+ },
+ "chronic": {
+  "n": 14,
+  "candidates": {
+   "prep0.5": 0.6007255591998188,
+   "prep3.0": 0.6187556005676476,
+   "prep6.0": 0.6089016078240687
+  },
+  "main": "prep0.5",
+  "pick_rate": {
+   "prep0.5": 0.055,
+   "prep3.0": 0.945,
+   "prep6.0": 0.0
+  },
+  "selected_on_A_eval_on_B_mean": 0.6159279880049375,
+  "main_eval_on_B_mean": 0.5996520402067587,
+  "optimism_mean": 0.016275947798178803,
+  "all_patients_main": 0.6007255591998188,
+  "all_patients_best_in_sample": 0.6187556005676476
+ }
+}

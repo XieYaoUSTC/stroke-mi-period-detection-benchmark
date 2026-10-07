@@ -1,0 +1,605 @@
+{
+ "rest_mode": "cue",
+ "rows": [
+  {
+   "sub": "sub-01",
+   "rule_c34_raw": 0.621875,
+   "riem_ts_lr_raw": 0.6924999999999999,
+   "rule_c34_pre_pad1": 0.689375,
+   "riem_ts_lr_pre_pad1": 0.9996875,
+   "rule_c34_pre_pad3": 0.6271875,
+   "riem_ts_lr_pre_pad3": 0.711875,
+   "rule_c34_pre_zerophase": 0.6253124999999999,
+   "riem_ts_lr_pre_zerophase": 0.713125
+  },
+  {
+   "sub": "sub-02",
+   "rule_c34_raw": 0.620625,
+   "riem_ts_lr_raw": 0.674375,
+   "rule_c34_pre_pad1": 0.671875,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.615625,
+   "riem_ts_lr_pre_pad3": 0.6775,
+   "rule_c34_pre_zerophase": 0.6165624999999999,
+   "riem_ts_lr_pre_zerophase": 0.6915625000000001
+  },
+  {
+   "sub": "sub-03",
+   "rule_c34_raw": 0.6837500000000001,
+   "riem_ts_lr_raw": 0.8878125,
+   "rule_c34_pre_pad1": 0.6996875,
+   "riem_ts_lr_pre_pad1": 0.988125,
+   "rule_c34_pre_pad3": 0.6575,
+   "riem_ts_lr_pre_pad3": 0.8353125,
+   "rule_c34_pre_zerophase": 0.6474999999999999,
+   "riem_ts_lr_pre_zerophase": 0.77125
+  },
+  {
+   "sub": "sub-04",
+   "rule_c34_raw": 0.6140625,
+   "riem_ts_lr_raw": 0.8396875,
+   "rule_c34_pre_pad1": 0.6090625,
+   "riem_ts_lr_pre_pad1": 0.8968750000000001,
+   "rule_c34_pre_pad3": 0.60375,
+   "riem_ts_lr_pre_pad3": 0.8271875000000001,
+   "rule_c34_pre_zerophase": 0.59875,
+   "riem_ts_lr_pre_zerophase": 0.8253125
+  },
+  {
+   "sub": "sub-05",
+   "rule_c34_raw": 0.43312500000000004,
+   "riem_ts_lr_raw": 0.475,
+   "rule_c34_pre_pad1": 0.43312500000000004,
+   "riem_ts_lr_pre_pad1": 0.4653125,
+   "rule_c34_pre_pad3": 0.43312500000000004,
+   "riem_ts_lr_pre_pad3": 0.4659375,
+   "rule_c34_pre_zerophase": 0.43875000000000003,
+   "riem_ts_lr_pre_zerophase": 0.46593750000000006
+  },
+  {
+   "sub": "sub-06",
+   "rule_c34_raw": 0.5321875,
+   "riem_ts_lr_raw": 0.4690625,
+   "rule_c34_pre_pad1": 0.5387500000000001,
+   "riem_ts_lr_pre_pad1": 0.96625,
+   "rule_c34_pre_pad3": 0.5293749999999999,
+   "riem_ts_lr_pre_pad3": 0.47375,
+   "rule_c34_pre_zerophase": 0.53,
+   "riem_ts_lr_pre_zerophase": 0.48375
+  },
+  {
+   "sub": "sub-07",
+   "rule_c34_raw": 0.6874999999999999,
+   "riem_ts_lr_raw": 0.7893750000000002,
+   "rule_c34_pre_pad1": 0.6968749999999999,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.6912499999999999,
+   "riem_ts_lr_pre_pad3": 0.7887500000000001,
+   "rule_c34_pre_zerophase": 0.696875,
+   "riem_ts_lr_pre_zerophase": 0.7837500000000001
+  },
+  {
+   "sub": "sub-08",
+   "rule_c34_raw": 0.6750000000000002,
+   "riem_ts_lr_raw": 0.8978125,
+   "rule_c34_pre_pad1": 0.7078124999999998,
+   "riem_ts_lr_pre_pad1": 0.9909375,
+   "rule_c34_pre_pad3": 0.6728125,
+   "riem_ts_lr_pre_pad3": 0.8868750000000001,
+   "rule_c34_pre_zerophase": 0.6609375000000001,
+   "riem_ts_lr_pre_zerophase": 0.8803125
+  },
+  {
+   "sub": "sub-09",
+   "rule_c34_raw": 0.7731250000000001,
+   "riem_ts_lr_raw": 0.8103125000000001,
+   "rule_c34_pre_pad1": 0.7796875,
+   "riem_ts_lr_pre_pad1": 0.9850000000000001,
+   "rule_c34_pre_pad3": 0.7765625,
+   "riem_ts_lr_pre_pad3": 0.8209375,
+   "rule_c34_pre_zerophase": 0.7740625,
+   "riem_ts_lr_pre_zerophase": 0.81375
+  },
+  {
+   "sub": "sub-10",
+   "rule_c34_raw": 0.7246874999999999,
+   "riem_ts_lr_raw": 0.9225,
+   "rule_c34_pre_pad1": 0.7406250000000001,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.7259374999999999,
+   "riem_ts_lr_pre_pad3": 0.9203125,
+   "rule_c34_pre_zerophase": 0.7240625,
+   "riem_ts_lr_pre_zerophase": 0.9240625
+  },
+  {
+   "sub": "sub-11",
+   "rule_c34_raw": 0.8171875,
+   "riem_ts_lr_raw": 0.9078125000000001,
+   "rule_c34_pre_pad1": 0.8321875000000001,
+   "riem_ts_lr_pre_pad1": 0.9484375,
+   "rule_c34_pre_pad3": 0.815,
+   "riem_ts_lr_pre_pad3": 0.9096875,
+   "rule_c34_pre_zerophase": 0.8165625,
+   "riem_ts_lr_pre_zerophase": 0.9137500000000001
+  },
+  {
+   "sub": "sub-12",
+   "rule_c34_raw": 0.6431250000000001,
+   "riem_ts_lr_raw": 0.7518750000000001,
+   "rule_c34_pre_pad1": 0.651875,
+   "riem_ts_lr_pre_pad1": 0.966875,
+   "rule_c34_pre_pad3": 0.644375,
+   "riem_ts_lr_pre_pad3": 0.7571875,
+   "rule_c34_pre_zerophase": 0.6456249999999999,
+   "riem_ts_lr_pre_zerophase": 0.7531249999999999
+  },
+  {
+   "sub": "sub-13",
+   "rule_c34_raw": 0.7278125,
+   "riem_ts_lr_raw": 0.8734375,
+   "rule_c34_pre_pad1": 0.7321875,
+   "riem_ts_lr_pre_pad1": 0.95,
+   "rule_c34_pre_pad3": 0.72875,
+   "riem_ts_lr_pre_pad3": 0.8721875000000001,
+   "rule_c34_pre_zerophase": 0.7240625,
+   "riem_ts_lr_pre_zerophase": 0.874375
+  },
+  {
+   "sub": "sub-14",
+   "rule_c34_raw": 0.6403125,
+   "riem_ts_lr_raw": 0.7590625,
+   "rule_c34_pre_pad1": 0.6699999999999999,
+   "riem_ts_lr_pre_pad1": 0.9609375,
+   "rule_c34_pre_pad3": 0.64,
+   "riem_ts_lr_pre_pad3": 0.7581249999999998,
+   "rule_c34_pre_zerophase": 0.6359375,
+   "riem_ts_lr_pre_zerophase": 0.7565624999999999
+  },
+  {
+   "sub": "sub-15",
+   "rule_c34_raw": 0.4471875,
+   "riem_ts_lr_raw": 0.55375,
+   "rule_c34_pre_pad1": 0.45562500000000006,
+   "riem_ts_lr_pre_pad1": 0.56625,
+   "rule_c34_pre_pad3": 0.45562500000000006,
+   "riem_ts_lr_pre_pad3": 0.566875,
+   "rule_c34_pre_zerophase": 0.47187499999999993,
+   "riem_ts_lr_pre_zerophase": 0.5668749999999999
+  },
+  {
+   "sub": "sub-16",
+   "rule_c34_raw": 0.661875,
+   "riem_ts_lr_raw": 0.818125,
+   "rule_c34_pre_pad1": 0.68125,
+   "riem_ts_lr_pre_pad1": 0.9778125,
+   "rule_c34_pre_pad3": 0.6734375,
+   "riem_ts_lr_pre_pad3": 0.8221875000000001,
+   "rule_c34_pre_zerophase": 0.663125,
+   "riem_ts_lr_pre_zerophase": 0.8215625
+  },
+  {
+   "sub": "sub-17",
+   "rule_c34_raw": 0.6453125,
+   "riem_ts_lr_raw": 0.8628124999999999,
+   "rule_c34_pre_pad1": 0.6503125,
+   "riem_ts_lr_pre_pad1": 0.984375,
+   "rule_c34_pre_pad3": 0.6471875,
+   "riem_ts_lr_pre_pad3": 0.876875,
+   "rule_c34_pre_zerophase": 0.644375,
+   "riem_ts_lr_pre_zerophase": 0.885
+  },
+  {
+   "sub": "sub-18",
+   "rule_c34_raw": 0.7603125,
+   "riem_ts_lr_raw": 0.9456249999999999,
+   "rule_c34_pre_pad1": 0.7753125,
+   "riem_ts_lr_pre_pad1": 0.9871875,
+   "rule_c34_pre_pad3": 0.7646875,
+   "riem_ts_lr_pre_pad3": 0.9468749999999999,
+   "rule_c34_pre_zerophase": 0.7578125,
+   "riem_ts_lr_pre_zerophase": 0.9425
+  },
+  {
+   "sub": "sub-19",
+   "rule_c34_raw": 0.7859375,
+   "riem_ts_lr_raw": 0.91625,
+   "rule_c34_pre_pad1": 0.7915625000000001,
+   "riem_ts_lr_pre_pad1": 0.9812500000000002,
+   "rule_c34_pre_pad3": 0.7903125,
+   "riem_ts_lr_pre_pad3": 0.9156249999999999,
+   "rule_c34_pre_zerophase": 0.7875,
+   "riem_ts_lr_pre_zerophase": 0.914375
+  },
+  {
+   "sub": "sub-20",
+   "rule_c34_raw": 0.771875,
+   "riem_ts_lr_raw": 0.7090624999999999,
+   "rule_c34_pre_pad1": 0.7837500000000001,
+   "riem_ts_lr_pre_pad1": 0.9615625,
+   "rule_c34_pre_pad3": 0.7731250000000001,
+   "riem_ts_lr_pre_pad3": 0.7068749999999999,
+   "rule_c34_pre_zerophase": 0.77125,
+   "riem_ts_lr_pre_zerophase": 0.7090625
+  },
+  {
+   "sub": "sub-21",
+   "rule_c34_raw": 0.61125,
+   "riem_ts_lr_raw": 0.854375,
+   "rule_c34_pre_pad1": 0.631875,
+   "riem_ts_lr_pre_pad1": 0.99625,
+   "rule_c34_pre_pad3": 0.6184375,
+   "riem_ts_lr_pre_pad3": 0.8581249999999999,
+   "rule_c34_pre_zerophase": 0.6137499999999999,
+   "riem_ts_lr_pre_zerophase": 0.8625
+  },
+  {
+   "sub": "sub-22",
+   "rule_c34_raw": 0.6959375,
+   "riem_ts_lr_raw": 0.9199999999999999,
+   "rule_c34_pre_pad1": 0.7006249999999999,
+   "riem_ts_lr_pre_pad1": 0.9378124999999999,
+   "rule_c34_pre_pad3": 0.6984375,
+   "riem_ts_lr_pre_pad3": 0.9203125,
+   "rule_c34_pre_zerophase": 0.6956249999999999,
+   "riem_ts_lr_pre_zerophase": 0.9184375
+  },
+  {
+   "sub": "sub-23",
+   "rule_c34_raw": 0.569375,
+   "riem_ts_lr_raw": 0.69,
+   "rule_c34_pre_pad1": 0.6,
+   "riem_ts_lr_pre_pad1": 0.9996875,
+   "rule_c34_pre_pad3": 0.5653125,
+   "riem_ts_lr_pre_pad3": 0.7015625,
+   "rule_c34_pre_zerophase": 0.57,
+   "riem_ts_lr_pre_zerophase": 0.71375
+  },
+  {
+   "sub": "sub-24",
+   "rule_c34_raw": 0.5525000000000001,
+   "riem_ts_lr_raw": 0.8575,
+   "rule_c34_pre_pad1": 0.5690624999999999,
+   "riem_ts_lr_pre_pad1": 0.9468749999999999,
+   "rule_c34_pre_pad3": 0.5678124999999999,
+   "riem_ts_lr_pre_pad3": 0.8618750000000001,
+   "rule_c34_pre_zerophase": 0.5771875,
+   "riem_ts_lr_pre_zerophase": 0.8684375
+  },
+  {
+   "sub": "sub-25",
+   "rule_c34_raw": 0.5303125,
+   "riem_ts_lr_raw": 0.788125,
+   "rule_c34_pre_pad1": 0.5675,
+   "riem_ts_lr_pre_pad1": 0.9974999999999999,
+   "rule_c34_pre_pad3": 0.5359375,
+   "riem_ts_lr_pre_pad3": 0.790625,
+   "rule_c34_pre_zerophase": 0.5228125,
+   "riem_ts_lr_pre_zerophase": 0.79375
+  },
+  {
+   "sub": "sub-26",
+   "rule_c34_raw": 0.5390625,
+   "riem_ts_lr_raw": 0.7978124999999999,
+   "rule_c34_pre_pad1": 0.5750000000000001,
+   "riem_ts_lr_pre_pad1": 0.9734375000000001,
+   "rule_c34_pre_pad3": 0.5309375000000001,
+   "riem_ts_lr_pre_pad3": 0.7956249999999999,
+   "rule_c34_pre_zerophase": 0.5228125,
+   "riem_ts_lr_pre_zerophase": 0.7921874999999999
+  },
+  {
+   "sub": "sub-27",
+   "rule_c34_raw": 0.5940625,
+   "riem_ts_lr_raw": 0.6734375,
+   "rule_c34_pre_pad1": 0.6121874999999999,
+   "riem_ts_lr_pre_pad1": 0.9496875,
+   "rule_c34_pre_pad3": 0.5903125,
+   "riem_ts_lr_pre_pad3": 0.6721875,
+   "rule_c34_pre_zerophase": 0.589375,
+   "riem_ts_lr_pre_zerophase": 0.6703125
+  },
+  {
+   "sub": "sub-28",
+   "rule_c34_raw": 0.6790625,
+   "riem_ts_lr_raw": 0.9753125,
+   "rule_c34_pre_pad1": 0.6875,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.6715625000000001,
+   "riem_ts_lr_pre_pad3": 0.9718749999999999,
+   "rule_c34_pre_zerophase": 0.6715625000000001,
+   "riem_ts_lr_pre_zerophase": 0.935
+  },
+  {
+   "sub": "sub-29",
+   "rule_c34_raw": 0.7359375,
+   "riem_ts_lr_raw": 0.6699999999999999,
+   "rule_c34_pre_pad1": 0.7365625,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.735625,
+   "riem_ts_lr_pre_pad3": 0.6625,
+   "rule_c34_pre_zerophase": 0.7350000000000001,
+   "riem_ts_lr_pre_zerophase": 0.665
+  },
+  {
+   "sub": "sub-30",
+   "rule_c34_raw": 0.91125,
+   "riem_ts_lr_raw": 0.9559375,
+   "rule_c34_pre_pad1": 0.9290624999999999,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.9109375000000001,
+   "riem_ts_lr_pre_pad3": 0.9550000000000001,
+   "rule_c34_pre_zerophase": 0.9084375,
+   "riem_ts_lr_pre_zerophase": 0.9512499999999999
+  },
+  {
+   "sub": "sub-31",
+   "rule_c34_raw": 0.7365625,
+   "riem_ts_lr_raw": 0.9015624999999999,
+   "rule_c34_pre_pad1": 0.7371875,
+   "riem_ts_lr_pre_pad1": 0.93125,
+   "rule_c34_pre_pad3": 0.73625,
+   "riem_ts_lr_pre_pad3": 0.9009375,
+   "rule_c34_pre_zerophase": 0.7375,
+   "riem_ts_lr_pre_zerophase": 0.8978125
+  },
+  {
+   "sub": "sub-32",
+   "rule_c34_raw": 0.504375,
+   "riem_ts_lr_raw": 0.8778125,
+   "rule_c34_pre_pad1": 0.5846875,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.494375,
+   "riem_ts_lr_pre_pad3": 0.8159374999999999,
+   "rule_c34_pre_zerophase": 0.4815625,
+   "riem_ts_lr_pre_zerophase": 0.7278124999999999
+  },
+  {
+   "sub": "sub-33",
+   "rule_c34_raw": 0.6253124999999999,
+   "riem_ts_lr_raw": 0.6675,
+   "rule_c34_pre_pad1": 0.636875,
+   "riem_ts_lr_pre_pad1": 0.9721875,
+   "rule_c34_pre_pad3": 0.6224999999999999,
+   "riem_ts_lr_pre_pad3": 0.6771875,
+   "rule_c34_pre_zerophase": 0.6234375,
+   "riem_ts_lr_pre_zerophase": 0.686875
+  },
+  {
+   "sub": "sub-34",
+   "rule_c34_raw": 0.6128125,
+   "riem_ts_lr_raw": 0.8446875,
+   "rule_c34_pre_pad1": 0.6206249999999999,
+   "riem_ts_lr_pre_pad1": 0.9790625,
+   "rule_c34_pre_pad3": 0.6140625,
+   "riem_ts_lr_pre_pad3": 0.8584375,
+   "rule_c34_pre_zerophase": 0.615,
+   "riem_ts_lr_pre_zerophase": 0.8534375000000001
+  },
+  {
+   "sub": "sub-35",
+   "rule_c34_raw": 0.5246875,
+   "riem_ts_lr_raw": 0.7178125000000001,
+   "rule_c34_pre_pad1": 0.5284375,
+   "riem_ts_lr_pre_pad1": 0.7840624999999999,
+   "rule_c34_pre_pad3": 0.528125,
+   "riem_ts_lr_pre_pad3": 0.719375,
+   "rule_c34_pre_zerophase": 0.52375,
+   "riem_ts_lr_pre_zerophase": 0.7315625
+  },
+  {
+   "sub": "sub-36",
+   "rule_c34_raw": 0.7662500000000001,
+   "riem_ts_lr_raw": 0.8240625,
+   "rule_c34_pre_pad1": 0.770625,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.7628125,
+   "riem_ts_lr_pre_pad3": 0.8125000000000001,
+   "rule_c34_pre_zerophase": 0.7615624999999999,
+   "riem_ts_lr_pre_zerophase": 0.8109375
+  },
+  {
+   "sub": "sub-37",
+   "rule_c34_raw": 0.5778125,
+   "riem_ts_lr_raw": 0.9446875,
+   "rule_c34_pre_pad1": 0.6062499999999998,
+   "riem_ts_lr_pre_pad1": 0.991875,
+   "rule_c34_pre_pad3": 0.5709375,
+   "riem_ts_lr_pre_pad3": 0.9315625,
+   "rule_c34_pre_zerophase": 0.5690625,
+   "riem_ts_lr_pre_zerophase": 0.9125
+  },
+  {
+   "sub": "sub-38",
+   "rule_c34_raw": 0.6915625000000001,
+   "riem_ts_lr_raw": 0.786875,
+   "rule_c34_pre_pad1": 0.8462500000000001,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.695,
+   "riem_ts_lr_pre_pad3": 0.7778125,
+   "rule_c34_pre_zerophase": 0.6912499999999999,
+   "riem_ts_lr_pre_zerophase": 0.7725
+  },
+  {
+   "sub": "sub-39",
+   "rule_c34_raw": 0.4984375,
+   "riem_ts_lr_raw": 0.8509375,
+   "rule_c34_pre_pad1": 0.5628124999999999,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.4953125,
+   "riem_ts_lr_pre_pad3": 0.8546875,
+   "rule_c34_pre_zerophase": 0.4975,
+   "riem_ts_lr_pre_zerophase": 0.85625
+  },
+  {
+   "sub": "sub-40",
+   "rule_c34_raw": 0.7190625,
+   "riem_ts_lr_raw": 0.8753125,
+   "rule_c34_pre_pad1": 0.740625,
+   "riem_ts_lr_pre_pad1": 0.99875,
+   "rule_c34_pre_pad3": 0.7200000000000001,
+   "riem_ts_lr_pre_pad3": 0.87375,
+   "rule_c34_pre_zerophase": 0.7109375,
+   "riem_ts_lr_pre_zerophase": 0.8728125
+  },
+  {
+   "sub": "sub-41",
+   "rule_c34_raw": 0.5171875,
+   "riem_ts_lr_raw": 0.651875,
+   "rule_c34_pre_pad1": 0.5225,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.5171874999999999,
+   "riem_ts_lr_pre_pad3": 0.623125,
+   "rule_c34_pre_zerophase": 0.5221874999999999,
+   "riem_ts_lr_pre_zerophase": 0.6290625
+  },
+  {
+   "sub": "sub-42",
+   "rule_c34_raw": 0.86,
+   "riem_ts_lr_raw": 0.9396875,
+   "rule_c34_pre_pad1": 0.8624999999999999,
+   "riem_ts_lr_pre_pad1": 0.99625,
+   "rule_c34_pre_pad3": 0.855625,
+   "riem_ts_lr_pre_pad3": 0.9268750000000001,
+   "rule_c34_pre_zerophase": 0.8465625,
+   "riem_ts_lr_pre_zerophase": 0.8678125000000001
+  },
+  {
+   "sub": "sub-43",
+   "rule_c34_raw": 0.5440625,
+   "riem_ts_lr_raw": 0.6056250000000001,
+   "rule_c34_pre_pad1": 0.541875,
+   "riem_ts_lr_pre_pad1": 0.945,
+   "rule_c34_pre_pad3": 0.5403125,
+   "riem_ts_lr_pre_pad3": 0.6065625,
+   "rule_c34_pre_zerophase": 0.54125,
+   "riem_ts_lr_pre_zerophase": 0.608125
+  },
+  {
+   "sub": "sub-44",
+   "rule_c34_raw": 0.7190625,
+   "riem_ts_lr_raw": 0.8571875,
+   "rule_c34_pre_pad1": 0.769375,
+   "riem_ts_lr_pre_pad1": 1.0,
+   "rule_c34_pre_pad3": 0.7212500000000001,
+   "riem_ts_lr_pre_pad3": 0.851875,
+   "rule_c34_pre_zerophase": 0.7237500000000001,
+   "riem_ts_lr_pre_zerophase": 0.848125
+  },
+  {
+   "sub": "sub-45",
+   "rule_c34_raw": 0.5887500000000001,
+   "riem_ts_lr_raw": 0.8046875,
+   "rule_c34_pre_pad1": 0.6315625,
+   "riem_ts_lr_pre_pad1": 0.9978125,
+   "rule_c34_pre_pad3": 0.5946875,
+   "riem_ts_lr_pre_pad3": 0.80125,
+   "rule_c34_pre_zerophase": 0.5956250000000001,
+   "riem_ts_lr_pre_zerophase": 0.7990624999999999
+  },
+  {
+   "sub": "sub-46",
+   "rule_c34_raw": 0.7274999999999999,
+   "riem_ts_lr_raw": 0.8234375,
+   "rule_c34_pre_pad1": 0.7356250000000001,
+   "riem_ts_lr_pre_pad1": 0.8471875000000001,
+   "rule_c34_pre_pad3": 0.7343750000000001,
+   "riem_ts_lr_pre_pad3": 0.8287499999999999,
+   "rule_c34_pre_zerophase": 0.7325,
+   "riem_ts_lr_pre_zerophase": 0.82875
+  },
+  {
+   "sub": "sub-47",
+   "rule_c34_raw": 0.7268749999999999,
+   "riem_ts_lr_raw": 0.8184375,
+   "rule_c34_pre_pad1": 0.786875,
+   "riem_ts_lr_pre_pad1": 0.9996875,
+   "rule_c34_pre_pad3": 0.7249999999999999,
+   "riem_ts_lr_pre_pad3": 0.8215625000000001,
+   "rule_c34_pre_zerophase": 0.7234375,
+   "riem_ts_lr_pre_zerophase": 0.828125
+  },
+  {
+   "sub": "sub-48",
+   "rule_c34_raw": 0.525,
+   "riem_ts_lr_raw": 0.7840624999999999,
+   "rule_c34_pre_pad1": 0.5387500000000001,
+   "riem_ts_lr_pre_pad1": 0.9996875,
+   "rule_c34_pre_pad3": 0.53625,
+   "riem_ts_lr_pre_pad3": 0.7737499999999999,
+   "rule_c34_pre_zerophase": 0.5459375,
+   "riem_ts_lr_pre_zerophase": 0.78125
+  },
+  {
+   "sub": "sub-49",
+   "rule_c34_raw": 0.6015625000000001,
+   "riem_ts_lr_raw": 0.4624999999999999,
+   "rule_c34_pre_pad1": 0.610625,
+   "riem_ts_lr_pre_pad1": 0.46875,
+   "rule_c34_pre_pad3": 0.6109375,
+   "riem_ts_lr_pre_pad3": 0.46906250000000005,
+   "rule_c34_pre_zerophase": 0.6084375000000001,
+   "riem_ts_lr_pre_zerophase": 0.45625000000000004
+  },
+  {
+   "sub": "sub-50",
+   "rule_c34_raw": 0.7162499999999999,
+   "riem_ts_lr_raw": 0.7468750000000001,
+   "rule_c34_pre_pad1": 0.719375,
+   "riem_ts_lr_pre_pad1": 0.854375,
+   "rule_c34_pre_pad3": 0.7171875,
+   "riem_ts_lr_pre_pad3": 0.753125,
+   "rule_c34_pre_zerophase": 0.7171875,
+   "riem_ts_lr_pre_zerophase": 0.7549999999999999
+  }
+ ],
+ "summary": {
+  "rule_c34_raw": {
+   "mean": 0.649375,
+   "sd": 0.10545361049692294,
+   "n": 50,
+   "n_gt_0.7": 17
+  },
+  "riem_ts_lr_raw": {
+   "mean": 0.7904875,
+   "sd": 0.12736385976498474,
+   "n": 50,
+   "n_gt_0.7": 38
+  },
+  "rule_c34_pre_pad1": {
+   "mean": 0.6710749999999999,
+   "sd": 0.10596892518973357,
+   "n": 50,
+   "n_gt_0.7": 20
+  },
+  "riem_ts_lr_pre_pad1": {
+   "mean": 0.9428812499999999,
+   "sd": 0.1217262352463825,
+   "n": 50,
+   "n_gt_0.7": 47
+  },
+  "rule_c34_pre_pad3": {
+   "mean": 0.6496624999999999,
+   "sd": 0.10531638588179942,
+   "n": 50,
+   "n_gt_0.7": 17
+  },
+  "riem_ts_lr_pre_pad3": {
+   "mean": 0.7881749999999998,
+   "sd": 0.12510305636957955,
+   "n": 50,
+   "n_gt_0.7": 40
+  },
+  "rule_c34_pre_zerophase": {
+   "mean": 0.64811875,
+   "sd": 0.1038689248404582,
+   "n": 50,
+   "n_gt_0.7": 17
+  },
+  "riem_ts_lr_pre_zerophase": {
+   "mean": 0.7836937500000001,
+   "sd": 0.12173562297907951,
+   "n": 50,
+   "n_gt_0.7": 40
+  }
+ }
+}

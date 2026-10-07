@@ -1,0 +1,12 @@
+{
+  "note": "2026-10-07 信号级重复审计(code/duplicate_audit.py)后的主口径剔除。跨患者逐点相同的记录无法确定归属 → 两名患者的该时点记录及以其为校准的全部部署条目均剔除;同一患者 follow 与 post 逐点相同 → 剔除 follow 及 pre→follow 部署。完整版结果保留在 *_full.json;保留其一的敏感性见 exclusions_keep_one.json。",
+  "ll_raw.json": [["sub-23", "pre"], ["sub-24", "pre"]],
+  "sf_restlate.json": [["sub-21", "pre"], ["sub-22", "pre"], ["sub-02", "follow"]],
+  "sf.json": [["sub-21", "pre"], ["sub-22", "pre"], ["sub-02", "follow"]],
+  "ll.json": [["sub-23", "pre"], ["sub-24", "pre"]],
+  "not_used_but_found": [
+    "stroke_tj_lowerlimb sub-01 ses-3 MI-IES run-1 == run-2 (刺激范式,本文未用)",
+    "stroke_tj_lowerlimb sub-09 ses-2 MI-SES run-4 == ses-3 MI-IES run-4 (刺激范式,本文未用)"
+  ],
+  "clean": ["stroke_acute: 2000 trials, 0 duplicates", "stroke_chronic_hs v6: 23382 trials, 0 cross-session / cross-patient duplicates"]
+}

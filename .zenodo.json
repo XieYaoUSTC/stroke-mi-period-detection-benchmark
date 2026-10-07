@@ -1,0 +1,17 @@
+{
+  "title": "stroke-mi-period-detection-benchmark: analysis code and results for benchmarking motor-imagery period detection in stroke EEG across four public datasets",
+  "upload_type": "software",
+  "description": "Analysis code, per-patient result files, statistical families, single-source number tables and figures for the paper 'Benchmarking motor-imagery period detection in stroke EEG across four public datasets: fixed rules, trained classifiers, calibration budgets and a specificity audit' (Yao Xie and Lirui Sun, University of Science and Technology of China). The four public datasets are not redistributed; download instructions are in data/README.md.",
+  "creators": [
+    {"name": "Xie, Yao", "affiliation": "School of Information Science and Technology, University of Science and Technology of China", "orcid": "0000-0001-5649-1513"},
+    {"name": "Sun, Lirui", "affiliation": "School of Information Science and Technology, University of Science and Technology of China"}
+  ],
+  "license": "MIT",
+  "keywords": ["stroke rehabilitation", "brain-computer interface", "motor imagery", "EEG", "benchmark", "calibration", "specificity"],
+  "related_identifiers": [
+    {"identifier": "10.6084/m9.figshare.21679035.v5", "relation": "references", "scheme": "doi", "resource_type": "dataset"},
+    {"identifier": "10.6084/m9.figshare.30747806.v6", "relation": "references", "scheme": "doi", "resource_type": "dataset"},
+    {"identifier": "10.6084/m9.figshare.27130299.v1", "relation": "references", "scheme": "doi", "resource_type": "dataset"},
+    {"identifier": "10.6084/m9.figshare.30509165.v11", "relation": "references", "scheme": "doi", "resource_type": "dataset"}
+  ]
+}

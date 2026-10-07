@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite this software, the accompanying paper and the four datasets."
+title: "stroke-mi-period-detection-benchmark: analysis code and results for benchmarking motor-imagery period detection in stroke EEG across four public datasets"
+type: software
+authors:
+  - family-names: Xie
+    given-names: Yao
+    email: xieyao@mail.ustc.edu.cn
+    orcid: https://orcid.org/0000-0001-5649-1513
+    affiliation: School of Information Science and Technology, University of Science and Technology of China
+  - family-names: Sun
+    given-names: Lirui
+    email: kris@mail.ustc.edu.cn
+    affiliation: School of Information Science and Technology, University of Science and Technology of China
+version: 1.0.0
+date-released: 2026-10-07
+license: MIT
+repository-code: https://github.com/XieYaoUSTC/stroke-mi-period-detection-benchmark
+keywords: [stroke rehabilitation, brain-computer interface, motor imagery, EEG, benchmark, calibration, specificity]

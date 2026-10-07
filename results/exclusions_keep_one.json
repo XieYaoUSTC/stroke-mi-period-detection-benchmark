@@ -1,0 +1,5 @@
+{
+  "note": "敏感性:每组跨患者重复记录保留编号较小者(sub-23 pre、sub-21 pre),只剔除另一份及其部署;sub-02 follow 同主口径剔除。",
+  "ll_raw.json": [["sub-24", "pre"]],
+  "sf_restlate.json": [["sub-22", "pre"], ["sub-02", "follow"]]
+}
